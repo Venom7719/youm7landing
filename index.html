@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>نتيجة الثانوية العامة 2026</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      min-height: 100%;
+      background: #ececec;
+    }
+
+    body {
+      font-family: Tahoma, Arial, sans-serif;
+    }
+
+    img {
+      display: block;
+    }
+
+    .clear {
+      clear: both;
+    }
+
+    /* الصورة 1 تظهر في يمين الشاشة على الديسكتوب. */
+    .RightPage {
+      width: 49.8%;
+      float: right;
+      position: relative;
+    }
+
+    /* الصورة 2 تظهر في يسار الشاشة على الديسكتوب. */
+    .leftPage {
+      width: 49.8%;
+      float: left;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    .leftPage img,
+    .RightPage img {
+      width: 100%;
+      height: auto;
+    }
+
+    .ImageLink {
+      display: block;
+      width: 100%;
+    }
+
+    /* الصندوق العائم مطابق لأبعاد وتموضع الصفحة الأصلية. */
+    .GoOurWebsite {
+      width: 612px;
+      height: 251px;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.90);
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      box-shadow: 0 14px 35px rgba(16, 29, 55, 0.14);
+      backdrop-filter: blur(5px);
+      z-index: 9;
+    }
+
+    .RightOpenLick,
+    .LeftOpenLick {
+      width: 50%;
+      float: right;
+    }
+
+    .SiteLogoImgLinkBlock {
+      height: 92px;
+      margin: 40px auto 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .Youm7Logo {
+      direction: rtl;
+      color: #111;
+      font-size: 38px;
+      font-weight: 900;
+      line-height: 1;
+      white-space: nowrap;
+    }
+
+    .Youm7Logo span {
+      color: #e52b2f;
+    }
+
+    .ResultLogo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #171717;
+      font-weight: 700;
+      line-height: 1.05;
+    }
+
+    .ResultLogo small {
+      font-size: 17px;
+      font-weight: 400;
+    }
+
+    .ResultLogo strong {
+      font-size: 29px;
+    }
+
+    .ResultLogo b {
+      color: #e52b2f;
+      font-size: 33px;
+    }
+
+    .LinkOpenSite {
+      width: 220px;
+      height: 47px;
+      line-height: 43px;
+      margin: auto;
+      display: block;
+      border: 1px solid #ed1a22;
+      border-radius: 10px;
+      color: #ed1a22;
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .LinkOpenSite:hover,
+    .LinkOpenSite:focus {
+      background: #ed1a22;
+      color: #fff;
+    }
+
+    .pageOpenSite {
+      width: 220px;
+      height: 47px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      display: block;
+      border: 1px solid #ed1a22;
+      border-radius: 10px 10px 0 0;
+      background: rgba(255, 255, 255, 0.90);
+      color: #ed1a22;
+      font-size: 18px;
+      line-height: 43px;
+      text-align: center;
+      text-decoration: none;
+      backdrop-filter: blur(5px);
+    }
+
+    .pageOpenSite:hover,
+    .pageOpenSite:focus {
+      background: #ed1a22;
+      color: #fff;
+    }
+
+    @media (max-width: 800px) {
+      .RightPage {
+        width: 100%;
+        float: none;
+      }
+
+      .leftPage {
+        width: 100%;
+        float: none;
+        position: relative;
+        left: auto;
+        top: auto;
+      }
+
+      .GoOurWebsite {
+        width: 260px;
+        height: 170px;
+        top: 0;
+        bottom: 0;
+        border-radius: 20px;
+      }
+
+      .SiteLogoImgLinkBlock {
+        display: none;
+      }
+
+      .RightOpenLick {
+        width: 100%;
+        float: none;
+        margin: 25px 0;
+      }
+
+      .LeftOpenLick {
+        width: 100%;
+        float: none;
+      }
+
+      .LinkOpenSite {
+        width: 220px;
+        height: 47px;
+        font-size: 17px;
+      }
+
+      .pageOpenSite {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="landingPage">
+    <aside class="GoOurWebsite" aria-label="روابط نتيجة الثانوية العامة">
+      <section class="RightOpenLick">
+        <div class="SiteLogoImgLinkBlock">
+          <div class="Youm7Logo"><span>اليوم</span> السابع</div>
+        </div>
+        <a class="LinkOpenSite" href="https://www.youm7.com/" target="_blank" rel="noopener">
+          موقع اليوم السابع
+        </a>
+      </section>
+
+      <section class="LeftOpenLick">
+        <div class="SiteLogoImgLinkBlock">
+          <div class="ResultLogo">
+            <small>نتيجة</small>
+            <strong>الثانوية العامة</strong>
+            <b>2026</b>
+          </div>
+        </div>
+        <a class="LinkOpenSite" href="#" aria-label="فتح نتيجة الثانوية العامة">
+          الثانوية العامة 2026
+        </a>
+      </section>
+    </aside>
+
+    <section class="ImagesOfTwo" aria-label="إعلانات الجامعات">
+      <article class="RightPage">
+        <a class="ImageLink" href="#" aria-label="فتح الإعلان الأول">
+          <img src="1.png" width="718" height="680" alt="الإعلان الأول">
+        </a>
+        <a class="pageOpenSite" href="#">الإعلان الأول</a>
+      </article>
+
+      <article class="leftPage">
+        <a
+          class="ImageLink"
+          href="https://apply.nub.edu.eg/#/registration"
+          target="_blank"
+          rel="noopener"
+          aria-label="التقديم في جامعة النهضة"
+        >
+          <img src="2.png" width="718" height="680" alt="جامعة النهضة">
+        </a>
+        <a
+          class="pageOpenSite"
+          href="https://apply.nub.edu.eg/#/registration"
+          target="_blank"
+          rel="noopener"
+        >
+          Nahda University
+        </a>
+      </article>
+
+      <div class="clear"></div>
+    </section>
+  </main>
+</body>
+</html>
